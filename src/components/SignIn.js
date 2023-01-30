@@ -10,8 +10,8 @@ const SignIn=()=> {
     const [area, setArea] = useState("");
 
 const PostData = ()=>{
-    
-    fetch("/api/signup", {
+     
+    fetch("https://backend-1-4fz0.onrender.com/signup", {
         method : "post",
         headers : {
             "Content-Type" : "application/json",
